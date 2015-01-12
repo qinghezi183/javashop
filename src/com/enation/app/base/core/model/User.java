@@ -10,7 +10,14 @@ public class User {
 	private Integer userId;
 	private String name;
 	private String code;	//Lizf add，用于用户接入验证
-
+        private String pwd;
+        
+        public String getPwd(){
+        	return pwd;
+        }
+        public void setPwd(String pwd){
+        	this.pwd=pwd;
+        }
 	/**
 	 * @return
 	 */
