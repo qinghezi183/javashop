@@ -12,9 +12,15 @@ public class User {
 	private String code;	//Lizf add，用于用户接入验证
         private String pwd;
         
+        /**
+	 * @return
+	 */
         public String getPwd(){
         	return pwd;
         }
+	/**
+	 * @param code
+	 */
         public void setPwd(String pwd){
         	this.pwd=pwd;
         }
